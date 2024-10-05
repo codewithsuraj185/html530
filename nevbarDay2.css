@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    list-style-type:none;
+    display: flex;
+    justify-content: center;
+    /* border:2px solid red; */
+    background-color: yellow; 
+    padding: 20px;
+}
+.nav li a{
+    text-decoration:none;
+    /*  border: 2px solid red;*/
+    /* padding: 20px;*/
+    margin: 20px;
+    color: black;
+}

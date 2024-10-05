@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 20px;
+    align-items: center;
+    background-color: black;
+
+}
+.nav li img{
+    width:100px;
+}
+
+.nav li ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li ul li a {
+    text-decoration: none;
+    margin: 20px;
+    color: yellow;
+
+}
