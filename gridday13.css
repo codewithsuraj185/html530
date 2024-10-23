@@ -1,0 +1,26 @@
+
+.maincard{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+.card{
+    margin: 30px;
+   
+}
+
+.card .cardimage{
+    width: 300px;
+    height: 400px;
+    background-image: url('https://www.portotheme.com/wordpress/porto/shop49/wp-content/uploads/sites/232/2024/07/shop49-prodcut1-2-560x560.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .cardimage1{
+    width: 300px;
+    height: 400px;
+    background-image: url("./dashboard-examples-instagram_0.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,218 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@900;700&display=swap');
+
+
+
+
+
+
+
+.navv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: ;
+    
+    background-color:grey;
+}
+
+.navv article{
+    display:flex ;
+}
+
+.navv article div{
+    margin: 10px;
+}
+
+.navbarr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbarr article{
+    display: flex;
+}
+.navbarr article div{
+    margin: 10px;
+}
+
+.navbarr article .free::after{
+    
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    margin-left:5px;
+    padding: 0px 10px 0px 10px;
+
+
+}
+  /*=========navbar=======*/
+{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .nav{
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      padding: 5px;
+      align-items:center;
+      background-color:palevioletred;
+  
+  }
+  .nav li img{
+      width:10px;
+  }
+  
+  .nav li ul {
+      display: flex;
+      list-style-type: none;
+  }
+  
+  .nav li ul li a {
+      text-decoration: none;
+      margin: 20px;
+      color: yellow;
+  
+  }
+
+/* ================mid navbar======== */
+
+
+
+.midnavbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.midnavbar article{
+    display: flex;
+}
+
+
+.midnavbar article{
+    margin: 10px;
+}
+
+.midnavbar article div{
+    margin: 20px;
+}
+/* ======================bottom navbar============= */
+
+.bottomnavbarr{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding: 20px;
+}
+.bottomnavbarr div a{
+    text-decoration: none;
+    border: 0px solid black;
+    color: black;
+    margin: 45px;
+
+}
+
+/* ========================hero============== */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    /* align-items:center ; */
+    /* width: 100%; */
+}
+
+/* .hero article{
+    padding: 10px;
+} */
+
+.hero .heroa1{
+    width: 28vw;
+    height: 10vh;
+}
+
+
+.hero .heroa1 div img{
+    width: 28vw;
+    height: 60vh;
+
+}
+
+.hero .heroa2{
+    width: 20vw;
+    height: 50vh;
+
+}
+
+
+.hero .heroa2 div img{
+    width: 20vw;
+    height: 40vh;
+
+}
+
+.hero .heroa3{
+    height: 50vh;
+}
+
+.hero .heroa3{
+    width: 38vw;
+
+}
+
+.hero .heroa3 div img{
+    width: 38vw;  
+}
+
+._4option div{
+    width: 50px;
+    height: 40px;
+    justify-items: left;
+    background-color;
+    margin:10px;
+
+   
+
+}
+
+#phoneicon{
+    background-color: rgb(24, 193, 67);
+    color: blue;
+    border-radius:50px ; 
+    padding:20px;
+    font-size: 20px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px
+
+}
+
+
+
+
+
+.maincard{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+.card{
+    margin: 30px;
+   
+}
+
+.card .cardimage{
+    width: 300px;
+    height: 400px;
+    background-image: url('https://www.portotheme.com/wordpress/porto/shop9/wp-content/uploads/sites/62/2019/12/shop9_product1-300x300.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+

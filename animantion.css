@@ -1,0 +1,29 @@
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: ani1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+
+@keyframes ani1{
+    0%{
+        margin-left: 0px;
+        margin-top: 0px;
+        border-radius: 0px;
+        rotate: 0deg;
+        margin: 300px;
+
+    }
+    100%{
+        margin-left: 1500px;
+        margin-top: 0px;
+        border-radius: 50%;
+        rotate: 360deg;
+
+
+    }
+}
