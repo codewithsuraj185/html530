@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@900;700&display=swap');
+
+
+
+*{
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+    background-color:black;
+    overflow-x: hidden;
+}
+
+
+
+
+.navbar article{
+    display: flex;
+}
+
+.navbar article div{
+    margin: 10px;
+}z
+
+.navbar article div a{
+       color: white;
+}
+
+
+.midnavbar  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    gap: 100px;
+    top: 0px;
+    overflow-x: hidden;
+
+}
+
+.midnavbar article{
+    display: flex;
+}
+
+.midnavbar article div{
+    margin: 20px;
+}
+
+.midnavbar article div a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.hero{
+    overflow-x: hidden;
+
+}
+
+.hero article .head{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    text-align: center ;
+    font-size: 40px;
+    overflow-x: hidden;
+
+
+}
+
+.maincard{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+.card{
+   margin: 30px;
+   
+}
+
+.card .cardimage{
+    width: 280px;
+    height: 280px;
+    background-image: url('./ad1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.card .cardimage1{
+    width: 280px;
+    height: 280px;
+    background-image: url("./ad2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .cardimage2{
+    width: 280px;
+    height: 280px;
+    background-image: url("./ad3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .cardimage3{
+    width: 280px;
+    height: 280px;
+    background-image: url("./ad4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.hero1 article .head{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    text-align: center ;
+    font-size: 40px;
+    overflow-x: hidden;
+
+}
+
+.maincard{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+.card{
+   margin: 30px;
+   
+}
+
+.card .cardimage4{
+    width: 280px;
+    height: 280px;
+    background-image: url('./ad5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.card .cardimage5{
+    width: 280px;
+    height: 280px;
+    background-image: url("./ad6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .cardimage6{
+    width: 280px;
+    height: 280px;
+    background-image: url("./ad7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .cardimage7{
+    width: 280px;
+    height: 280px;
+    background-image: url("./ad8.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.hero2 article .head{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    text-align: center ;
+    font-size: 40px;
+    overflow-x: hidden;
+
+}
+
+.maincard1{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: space-evenly;
+}
+.card{
+   margin: 30px;
+   
+}
+
+.card .cardimage8{
+    width: 320px;
+    height: 280px;
+    background-image: url('./ad9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.card .cardimage9{
+    width: 280px;
+    height: 280px;
+    background-image: url("./ad10.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .cardimage10{
+    width: 280px;
+    height: 280px;
+    background-image: url("./ad11.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .cardimage11{
+    width: 320px;
+    height: 280px;
+    background-image: url('./ad12.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.card .cardimage12{
+    width: 280px;
+    height: 280px;
+    background-image: url("./ad13.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .cardimage13{
+    width: 280px;
+    height: 280px;
+    background-image: url("./ad14.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.hero3 article .head{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    text-align: center ;
+    font-size: 40px;
+    overflow-x: hidden;
+
+}
+
+.maincard2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto ;
+    justify-content: space-evenly;
+}
+.card{
+   margin: 30px;
+   
+}
+
+.card .cardimage14{
+    width: 150px;
+    height: 150px;
+    background-image: url('./ad15.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.card .cardimage15{
+    width: 150px;
+    height: 150px;
+    background-image: url('./ad16.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}.card .cardimage16{
+    width: 150px;
+    height: 150px;
+    background-image: url('./ad17.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}.card .cardimage17{
+    width: 150px;
+    height: 150px;
+    background-image: url('./ad18.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}.card .cardimage18{
+    width: 150px;
+    height: 150px;
+    background-image: url('./ad19.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}.card .cardimage19{
+    width: 150px;
+    height: 150px;
+    background-image: url('./ad20.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.hero4 article .head{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    text-align: center ;
+    font-size: 40px;
+    overflow-x: hidden;
+
+}
+
+.maincard3{
+    display: grid;
+    grid-template-columns: auto auto auto auto  ;
+    justify-content: space-evenly;
+}
+.card{
+   margin: 30px;
+   
+}
+
+.card .cardimage20{
+    width: 270px;
+    height: 250px;
+    background-image: url('./ad21.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.card .cardimage21{
+    width: 270px;
+    height: 250px;
+    background-image: url('./ad22.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}.card .cardimage22{
+    width: 270px;
+    height: 250px;
+    background-image: url('./ad23.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.card .cardimage23{
+    width: 250px;
+    height: 250px;
+    background-image: url('./ad24.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.hero5{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center;  */
+    text-align: center ;
+    font-size: 40px;
+    overflow-x: hidden;
+
+}
+
+.hero5 article div{
+
+    font-size:25px;
+    
+    
+    
+}
+
+
+.hero6 article .head{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    text-align: center ;
+    font-size: 40px;
+    padding: 30px;
+    overflow-x: hidden;
+
+}
+
+.maincard6{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: space-evenly;
+}
+.card{
+   margin: 30px;
+ 
+}
+
+.card .cardimage25{
+    width: 400px;
+    height: 224px;
+    background-image: url('./ad25.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.card .cardimage26{
+    width: 400px;
+    height: 224px;
+    background-image: url("./ad26.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .cardimage27{
+    width: 400px;
+    height: 224px;
+    background-image: url("./ad27.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.hero7 article .head{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    text-align: center ;
+    font-size: 40px;
+    padding: 30px;
+    overflow-x: hidden;
+
+}
+
+.maincard7{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: space-evenly;
+}
+.card{
+   margin: 30px;
+ 
+}
+
+.card .cardimage28{
+    width: 600px;
+    height: 300px;
+    background-image: url('./ad28.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.card .cardimage29{
+    width: 600px;
+    height: 300px;
+    background-image: url("./ad29.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+

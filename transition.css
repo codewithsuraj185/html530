@@ -24,3 +24,24 @@
     transition: all 2s;
     
 }
+
+
+#ani:hover{
+    rotate: 360deg;
+    transition: rotate 5s;
+
+}
+
+#ani2{
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+    
+}
+
+#ani2:hover{
+    width: 500px;
+    height: 500px;
+    transition: all 2s;
+    
+}

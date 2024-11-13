@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@900;700&display=swap');
+
+
+
+
+*{
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+    background-color:aqua;
+    overflow-x: hidden;
+}
+
+
+
+
+.navbar article{
+    display: flex;
+    
+}
+
+.navbar article div{
+    margin: 20px;
+}
+
+.navbar article div a{
+       color:black;
+}
+
+.midnavbar  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    overflow-x: hidden;
+
+}
+
+.midnavbar article{
+    display: flex;
+}
+
+.midnavbar article div{
+    margin: 20px;
+}
+
+.midnavbar article div a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-evenly;
+    /* align-items: center;  */
+    text-align: center ;
+    font-size: 30px;
+    overflow-x: hidden;
+}
+.hero article div
+
+
+
