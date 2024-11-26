@@ -1,18 +1,86 @@
-h1{
-    color:red;
-
-}
-/* img{
-     width:600px;
-     height:700px;
-}*/
-
-.suraj{
-   width: 600px;
-   height: 700px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.veer{
-   height: 400px;
-    width: 200px;
-}  
+#name {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: absolute;
+  top: 12%;
+  left: 30%;
+}
+
+#name ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+#name ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 130%;
+}
+
+#name li {
+  font-size: 20px;
+  transition: none;
+}
+
+.vi {
+  width: 100%;
+  padding: 23px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.btn {
+  border: 2px solid 0;
+  padding: 10px 30px 10px 30px;
+  width: 70px;
+  position: absolute;
+  top: 400px;
+  left: 400px;
+}
+
+h1 {
+  color: red;
+  margin: 40px;
+  padding: 2%;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 40px;
+  margin: 30px;
+  padding: 0px;
+  font-size: 24px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#foot1 ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-top: -100px;
+}
+
+#foot1 ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 130%;
+}/*# sourceMappingURL=style.css.map */

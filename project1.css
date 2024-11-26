@@ -5,28 +5,23 @@
 
 *{
     scroll-behavior: smooth;
+    color: black;  
 }
-
-
 .navbar{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 25px;
     padding: 0px;
-    background-color:black;
     overflow-x: hidden;
 }
-
-
-
-
 .navbar article{
     display: flex;
 }
 
 .navbar article div{
     margin: 10px;
-}z
+}
 
 .navbar article div a{
        color: white;
@@ -37,6 +32,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 18px;
     position: sticky;
     gap: 100px;
     top: 0px;
